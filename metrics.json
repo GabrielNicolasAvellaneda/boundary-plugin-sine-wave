@@ -1,0 +1,10 @@
+{
+  "BOUNDARY_SINE_WAVE_AMPLITUDE": {
+    "defaultAggregate": "AVG",
+    "defaultResolutionMS": 60000,
+    "description": "Measures the magnitude of the sampled sine-wave",
+    "displayName": "Sine-wave Amplitude",
+    "displayNameShort": "Sin-wave Amp.",
+    "unit": "number"
+  }
+}

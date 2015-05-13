@@ -1,0 +1,48 @@
+{
+  "description": "Samples a sine-wave at given input frequencies",
+  "icon": "sin-wave.png",
+  "command": "boundary-meter init.lua",
+  "metrics": [
+    "BOUNDARY_SINE_WAVE_AMPLITUDE"
+  ],
+  "dashboards": [
+    {
+      "name": "Sine Wave",
+      "layout": "d-w=1&d-h=2&d-pad=15&d-bg=none&d-g-BOUNDARY_STOCK_PRICE=0-0-1-1&d-g-BOUNDARY_STOCK_VOLUME=0-1-1-1"
+    }
+  ],
+  "paramSchema": [
+    {
+      "title": "Amplitude",
+      "name": "Amplitude",
+      "description": "Amplitude",
+      "type": "number",
+      "default": "1",
+      "required": true
+    },
+    {
+      "title": "Frequency",
+      "name": "frequency",
+      "description": "Sin wave frequency in Hz",
+      "type": "number",
+      "default": "0.5",
+      "required": true
+    },
+    {
+      "title": "Sample Period #1",
+      "name": "sample_period_one",
+      "description": "Sample period in seconds",
+      "type": "number",
+      "default": "1",
+      "required": true
+    },
+    {
+      "title": "Sample Period #2",
+      "name": "sample_period_two",
+      "description": "Sample period #2 in seconds",
+      "type": "number",
+      "default": "60",
+      "required": true
+    }
+  ]
+}
