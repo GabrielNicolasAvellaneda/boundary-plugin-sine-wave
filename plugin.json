@@ -1,5 +1,5 @@
 {
-  "description": "Samples a sine-wave at given input frequencies",
+  "description": "Samples a sine-wave at the given sample periods",
   "icon": "sin-wave.png",
   "command": "boundary-meter init.lua",
   "metrics": [
